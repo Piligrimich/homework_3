@@ -2,8 +2,8 @@ def my_decorator(func):
     storage = {}
 
     def wrapper(*args):
-        result = func(*args)
         if args not in storage:
+            result = func(*args)
             storage[args] = result
             print(f'Результат функции: {result}')
         else:
