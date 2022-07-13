@@ -14,6 +14,9 @@ class SuperHero:
     def attack(self):
         print('Boom')
 
+    def ultimate(self):
+        pass
+
 
 class Gun:
     def fire_a_gun(self):
