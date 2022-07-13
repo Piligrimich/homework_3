@@ -15,7 +15,7 @@ class SuperHero:
         print('Boom')
 
     def ultimate(self):
-        pass
+        print('GRAAAA!')
 
 
 class Gun:
